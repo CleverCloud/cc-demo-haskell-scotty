@@ -1,0 +1,8 @@
+name: cc-demo-haskell-scotty
+version: 0
+build-type: Simple
+
+executable cc-demo-haskell-scotty
+    main-is: Main.hs
+    build-depends: base
+                 , scotty
